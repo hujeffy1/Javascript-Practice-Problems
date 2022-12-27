@@ -4,7 +4,7 @@
 
 This repository is intended for anyone looking for extra practice with various
 fundamental Javascript concepts. Included in this repo are problems that will ask 
-you to:
+you to:  
     - Create for loops and while loops  
     - Create Javascript functions using the function keyword  
     - Create Javascript functions using arrow syntax  
