@@ -1,4 +1,4 @@
-describe('mySlice', () => {
+xdescribe('mySlice', () => {
 
   it('is a function', () => {
     expect(typeof mySlice).toEqual('function');

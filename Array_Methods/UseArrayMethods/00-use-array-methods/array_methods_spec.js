@@ -1,6 +1,6 @@
 /* eslint-env jasmine */
 /* eslint-disable no-undef */
-describe('useMapToUpperCase', () => {
+xdescribe('useMapToUpperCase', () => {
   it('takes a string and returns an array', () => {
     const array = useMapToUpperCase('it is raining outside');
     expect(Array.isArray(array)).toBe(true);
@@ -27,7 +27,7 @@ describe('useMapToUpperCase', () => {
   });
 });
 
-describe('useFilter', () => {
+xdescribe('useFilter', () => {
   it('takes an array and returns an array', () => {
     const array = useFilter(['kdsd@aol.com', 'test@apple.com']);
     expect(Array.isArray(array)).toBe(true);
@@ -61,7 +61,7 @@ describe('useFilter', () => {
   });
 });
 
-describe('sumWithReduce', () => {
+xdescribe('sumWithReduce', () => {
   it('takes an array and returns a number', () => {
     const sum = sumWithReduce([7, 8, 9, 10]);
     expect(typeof sum === 'number').toBe(true);
@@ -86,7 +86,7 @@ describe('sumWithReduce', () => {
   });
 });
 
-describe('filterEvensDoubleAndSum', () => {
+xdescribe('filterEvensDoubleAndSum', () => {
 
   it('takes an array and returns a number', () => {
     const sum = filterEvensDoubleAndSum([22, 44, 11, 87, 909, 40, 2]);

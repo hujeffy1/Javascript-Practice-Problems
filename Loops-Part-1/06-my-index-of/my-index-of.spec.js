@@ -1,4 +1,4 @@
-describe('myIndexOf', () => {
+xdescribe('myIndexOf', () => {
 
   it('is a function', () => {
     expect(typeof myIndexOf).toEqual('function');

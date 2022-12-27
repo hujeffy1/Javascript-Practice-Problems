@@ -1,4 +1,4 @@
-describe('crazyCaps', () => {
+xdescribe('crazyCaps', () => {
 
   it('is a function', () => {
     expect(typeof crazyCaps).toEqual('function');
