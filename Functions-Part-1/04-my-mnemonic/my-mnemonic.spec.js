@@ -1,4 +1,4 @@
-describe('myMnemonic', () => {
+xdescribe('myMnemonic', () => {
 
   it('is a function', () => {
     expect(typeof myMnemonic).toEqual('function');
