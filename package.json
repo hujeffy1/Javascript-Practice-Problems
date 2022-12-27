@@ -1,0 +1,14 @@
+{
+  "name": "javascript_practice_problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testem": "^3.10.1"
+  }
+}
