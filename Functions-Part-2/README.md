@@ -1,4 +1,4 @@
-### 06 - Functions and Closure
+## Functions Part 2
 
 ### Overview
 

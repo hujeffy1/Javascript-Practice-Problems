@@ -1,4 +1,4 @@
-### Fullstack HQ
+## Fullstack HQ
 
 Refactor the function `fullstackHQ` so that it returns the correct string:
 

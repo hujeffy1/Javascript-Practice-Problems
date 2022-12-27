@@ -1,4 +1,4 @@
-### My Slice
+## My Slice
 
 Write a function `mySlice` that accepts up to three arguments:
 1. originalString (string)

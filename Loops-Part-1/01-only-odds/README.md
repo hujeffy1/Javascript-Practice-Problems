@@ -1,4 +1,4 @@
-### Only Odds
+## Only Odds
 
 Define a function, `onlyOdds`, that accepts a number as an argument. `onlyOdds`
 should should return the sum of all the odd numbers between the given number

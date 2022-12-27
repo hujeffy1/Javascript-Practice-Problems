@@ -1,4 +1,4 @@
-### Incremental Change
+## Incremental Change
 
 Define a function `incrementalChange` that accepts a number and increments the global
 variable counter by that amount. The function should also return the current

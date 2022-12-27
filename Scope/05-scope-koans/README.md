@@ -1,4 +1,4 @@
-### Scope Koans
+## Scope Koans
 
 All of the tests for scope-koans.js are failing. Following the restrictions for
 each function in scope-koans.js, fix the code so every test passes.

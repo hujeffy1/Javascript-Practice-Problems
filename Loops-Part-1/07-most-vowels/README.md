@@ -1,4 +1,4 @@
-### Most Vowels
+## Most Vowels
 
 Define a function, `mostVowels`, that accepts one argument, a string of words.
 

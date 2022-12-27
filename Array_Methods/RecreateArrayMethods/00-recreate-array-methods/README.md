@@ -1,4 +1,4 @@
-#### Recreate Array Methods
+## Recreate Array Methods
 
 Create the functions `mapReduce` and `everyReduce` that emulate the behavior of the [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) functions.
 

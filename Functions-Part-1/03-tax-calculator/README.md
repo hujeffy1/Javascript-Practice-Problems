@@ -1,4 +1,4 @@
-### Tax Caclulator
+### Tax Calculator
 
 Define a function `taxCalculator` that accepts the price of an item and a state.
 `taxCalculator` should return the after-tax cost of the item, assuming NY's tax

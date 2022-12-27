@@ -1,4 +1,4 @@
-#### Recreate Array Methods
+## Recreate Array Methods
 
 Functional programming is another form of programming that is different than an Object Oriented Style used in earlier test specs. Functional programming emphasizes the use of functions as the primary programming construct, as opposed to OOP, which emphasizes the use of objects. Because of this, Functional Programming often makes use of Higher Order Functions!
 

@@ -1,4 +1,4 @@
-### Sniper Scope
+## Sniper Scope
 
 Each of the functions in sniper-scope.js asks you to make a prediction: will
 AgentinScope be equal to true or false? The tests for this problem will pass if

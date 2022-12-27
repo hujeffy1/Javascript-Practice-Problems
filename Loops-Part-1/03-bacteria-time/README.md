@@ -1,4 +1,4 @@
-### Bacteria Time
+## Bacteria Time
 
 Define a function, `bacteriaTime`, that accepts two arguments:
   1. currentNum (num) - number of starting bacteria

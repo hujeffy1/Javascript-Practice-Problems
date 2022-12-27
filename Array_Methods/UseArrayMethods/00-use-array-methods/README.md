@@ -1,4 +1,4 @@
-### Use Array Methods
+## Use Array Methods
 
 In these challenges, use the `reduce`, `filter`, and `map` methods.
 

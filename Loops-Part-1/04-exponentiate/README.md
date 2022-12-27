@@ -1,4 +1,4 @@
-### Exponentiate
+## Exponentiate
 
 Write a function `exponentiate` that accepts two arguments:
 1. base (number)
