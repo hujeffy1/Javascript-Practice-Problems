@@ -1,5 +1,4 @@
-xdescribe('onlyOdds', () => {
-
+describe('onlyOdds', () => {
   it('is a function', () => {
     expect(typeof onlyOdds).toEqual('function');
   });
@@ -18,5 +17,4 @@ xdescribe('onlyOdds', () => {
     let returnedValue = onlyOdds(-5);
     expect(returnedValue).toEqual(0);
   });
-
 });

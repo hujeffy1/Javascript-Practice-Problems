@@ -1,5 +1,4 @@
-xdescribe('mySlice', () => {
-
+describe('mySlice', () => {
   it('is a function', () => {
     expect(typeof mySlice).toEqual('function');
   });
@@ -23,5 +22,4 @@ xdescribe('mySlice', () => {
     let returnedValue = mySlice('a piece of pie');
     expect(returnedValue).toEqual('a piece of pie');
   });
-
 });

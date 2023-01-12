@@ -1,5 +1,4 @@
-xdescribe('bacteriaTime', () => {
-
+describe('bacteriaTime', () => {
   it('is a function', () => {
     expect(typeof bacteriaTime).toEqual('function');
   });
@@ -18,5 +17,4 @@ xdescribe('bacteriaTime', () => {
     let returnedValue = bacteriaTime(100, 50);
     expect(returnedValue).toEqual('targetNum must be larger than currentNum');
   });
-
 });

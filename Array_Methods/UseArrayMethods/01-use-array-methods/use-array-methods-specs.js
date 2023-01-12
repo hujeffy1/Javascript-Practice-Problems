@@ -1,7 +1,7 @@
 /* eslint-env jasmine */
 /* eslint-disable no-undef */
 
-xdescribe('using map', () => {
+describe('using map', () => {
   describe('indexAndValue', () => {
     it('create the function indexAndValue that returns an array', () => {
       expect(Array.isArray(indexAndValue([22, 33, 44, 55]))).toBe(true);
@@ -73,7 +73,7 @@ xdescribe('using map', () => {
   });
 });
 
-xdescribe('using filter', () => {
+describe('using filter', () => {
   describe('extensionSearch', () => {
     it('returns an array', () => {
       expect(
@@ -118,7 +118,7 @@ xdescribe('using filter', () => {
   });
 });
 
-xdescribe('using reduce', () => {
+describe('using reduce', () => {
   describe('getPopulation', () => {
     const arrayOfCountries = [
       { name: 'China', population: 1386395000 },

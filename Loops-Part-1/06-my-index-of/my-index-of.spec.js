@@ -1,5 +1,4 @@
-xdescribe('myIndexOf', () => {
-
+describe('myIndexOf', () => {
   it('is a function', () => {
     expect(typeof myIndexOf).toEqual('function');
   });
@@ -23,5 +22,4 @@ xdescribe('myIndexOf', () => {
     let returnedValue = myIndexOf('here and there', 'nowhere');
     expect(returnedValue).toEqual(-1);
   });
-
 });

@@ -1,10 +1,9 @@
-xdescribe('simpleSum', () => {
-
+describe('simpleSum', () => {
   it('is a function', () => {
     expect(typeof simpleSum).toEqual('function');
   });
 
-  xit('returns a number', () => {
+  it('returns a number', () => {
     let returnedValue = simpleSum(1, 2);
     expect(typeof returnedValue).toEqual('number');
   });
@@ -18,5 +17,4 @@ xdescribe('simpleSum', () => {
     let returnedValue = simpleSum(-10, -20);
     expect(returnedValue).toEqual(-30);
   });
-
 });

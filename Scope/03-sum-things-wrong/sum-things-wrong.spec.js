@@ -1,5 +1,4 @@
-xdescribe('sumThingsWrong', () => {
-
+describe('sumThingsWrong', () => {
   it('is a function', () => {
     expect(typeof sumThingsWrong).toEqual('function');
   });
@@ -23,5 +22,4 @@ xdescribe('sumThingsWrong', () => {
     let returnedValue = sumThingsWrong(-1, -1);
     expect(returnedValue).toEqual(-2);
   });
-
 });

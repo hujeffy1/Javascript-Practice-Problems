@@ -1,5 +1,4 @@
-xdescribe('myMnemonic', () => {
-
+describe('myMnemonic', () => {
   it('is a function', () => {
     expect(typeof myMnemonic).toEqual('function');
   });
@@ -23,5 +22,4 @@ xdescribe('myMnemonic', () => {
     let returnedValue = myMnemonic('Candy', 'Kringles');
     expect(returnedValue).toEqual('CK');
   });
-
 });

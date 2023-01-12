@@ -1,5 +1,4 @@
-xdescribe('defaultGreet', () => {
-
+describe('defaultGreet', () => {
   it('is a function', () => {
     expect(typeof defaultGreet).toEqual('function');
   });
@@ -18,5 +17,4 @@ xdescribe('defaultGreet', () => {
     let returnedValue = defaultGreet('Jane');
     expect(returnedValue).toEqual('Hi Jane Doe!');
   });
-
 });

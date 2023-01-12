@@ -1,5 +1,4 @@
-xdescribe('taxCalculator', () => {
-
+describe('taxCalculator', () => {
   it('is a function', () => {
     expect(typeof taxCalculator).toEqual('function');
   });
@@ -18,5 +17,4 @@ xdescribe('taxCalculator', () => {
     let returnedValue = taxCalculator(10, 'NJ');
     expect(returnedValue).toEqual(10.6625);
   });
-
 });

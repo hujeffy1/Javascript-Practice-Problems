@@ -1,5 +1,4 @@
-xdescribe('fullstackHQ', () => {
-
+describe('fullstackHQ', () => {
   it('is a function', () => {
     expect(typeof fullstackHQ).toEqual('function');
   });
@@ -11,7 +10,8 @@ xdescribe('fullstackHQ', () => {
 
   it('returns the correct string', () => {
     let returnedValue = fullstackHQ();
-    expect(returnedValue).toEqual('Fullstack HQ is at Planet Earth, United States, New York State, New York City');
+    expect(returnedValue).toEqual(
+      'Fullstack HQ is at Planet Earth, United States, New York State, New York City'
+    );
   });
-
 });

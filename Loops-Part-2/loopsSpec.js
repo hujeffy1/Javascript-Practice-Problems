@@ -1,7 +1,7 @@
 /* eslint-env jasmine */
 /* eslint-disable no-undef */
 
-xdescribe('Looping', () => {
+describe('Looping', () => {
   // Let's repeat ourselves several times
   describe('The function `repeat`', () => {
     it('returns an empty string with 0 repeats', () => {
@@ -139,7 +139,7 @@ xdescribe('Looping', () => {
   Here we have to also be aware of properties that are on an object's internal prototype (.__proto__)
 */
 
-xdescribe('looping over objects', () => {
+describe('looping over objects', () => {
   describe('the function `paramify`', () => {
     it('works on an empty object', () => {
       expect(paramify({})).toEqual('');

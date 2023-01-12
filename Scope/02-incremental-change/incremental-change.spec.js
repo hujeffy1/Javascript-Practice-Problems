@@ -1,5 +1,4 @@
-xdescribe('incrementalChange', () => {
-
+describe('incrementalChange', () => {
   // set the global counter variable to 0 before each test
   beforeEach(() => {
     counter = 0;
@@ -27,5 +26,4 @@ xdescribe('incrementalChange', () => {
     incrementalChange(-50);
     expect(counter).toEqual(50);
   });
-
 });

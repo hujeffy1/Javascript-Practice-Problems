@@ -1,5 +1,4 @@
-xdescribe('crazyCaps', () => {
-
+describe('crazyCaps', () => {
   it('is a function', () => {
     expect(typeof crazyCaps).toEqual('function');
   });
@@ -13,5 +12,4 @@ xdescribe('crazyCaps', () => {
     let returnedValue = crazyCaps('this is crazy');
     expect(returnedValue).toEqual('tHiS Is cRaZy');
   });
-
 });

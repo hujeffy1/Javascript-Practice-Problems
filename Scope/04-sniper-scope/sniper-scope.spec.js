@@ -1,57 +1,41 @@
-xdescribe('oddJob', () => {
-
+describe('oddJob', () => {
   it('returns true', () => {
     let returnedValue = oddJob();
     expect(returnedValue).toEqual(true);
   });
-
 });
 
-
-xdescribe('goldFinger', () => {
-
+describe('goldFinger', () => {
   it('returns true', () => {
     let returnedValue = goldFinger();
     expect(returnedValue).toEqual(true);
   });
-
 });
 
-
-xdescribe('scaramanga', () => {
-
+describe('scaramanga', () => {
   it('returns true', () => {
     let returnedValue = scaramanga();
     expect(returnedValue).toEqual(true);
   });
-
 });
 
-
-xdescribe('drNo', () => {
-
+describe('drNo', () => {
   it('returns true', () => {
     let returnedValue = drNo();
     expect(returnedValue).toEqual(true);
   });
-
 });
 
-
-xdescribe('jaws', () => {
-
+describe('jaws', () => {
   it('returns true', () => {
     let returnedValue = jaws();
     expect(returnedValue).toEqual(true);
   });
-
 });
 
-xdescribe('elChiffre', () => {
-
+describe('elChiffre', () => {
   it('returns true', () => {
     let returnedValue = elChiffre();
     expect(returnedValue).toEqual(true);
   });
-
 });
